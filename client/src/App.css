@@ -1,0 +1,178 @@
+/* GENERAL */
+
+header
+{
+  background: linear-gradient(#00368d, #ffffffb0);
+  min-height: 10vh;
+  color:#ffffff;
+  text-align: center;
+}
+header h1 
+{
+  font-size: 5rem;
+}
+aside
+{
+  background: linear-gradient(#ffffffb0, #00368d);
+  min-height: 70vh;
+  min-width: 20vw;
+  text-align: center;
+}
+aside a
+{
+  color: #000000;
+  font-size: 1.5rem;
+}
+.nav-item
+{
+  margin : 5% 0;
+}
+aside i
+{
+  font-size: 1.5rem;
+}
+footer
+{
+  min-height: 7vh;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(#00368d, #ffffffb0);
+  padding-top: 1%;
+}
+
+/* 404 */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.notFound {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    color: #FFFFFF;
+    text-align: center;
+    max-height: 70vh;
+}
+
+.notFound {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='58' viewBox='0 0 42 58'%3E%3Cg fill='%23dddcdd' fill-opacity='0.23'%3E%3Cpath fill-rule='evenodd' d='M12 18h12v18h6v4H18V22h-6v-4zm-6-2v-4H0V0h36v6h6v36h-6v4h6v12H6v-6H0V16h6zM34 2H2v8h24v24h8V2zM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM2 50h32v-8H10V18H2v32zm28-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+section.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+    height: 100vh;
+}
+
+section.notFound h1 {
+    color: red;
+    font-size: 100px;
+}
+
+section.notFound h2 {
+    font-size: 50px;
+}
+
+section.notFound h1, h2, h3 {
+    margin-bottom: 40px;
+}
+
+div.text {
+    height: 50vh;
+}
+
+div.text a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+div.text a:hover {
+    color: red;
+    text-decoration: underline; 
+}
+
+@media only screen and (max-width: 768px) {
+    section.notFound {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    section.notFound div.img img {
+        width: 70vw;
+        height: auto;
+    }
+    section.notFound h1 {
+        font-size: 50px;
+    }
+    section.notFound h2 {
+        font-size: 25px;
+    }
+    div.text a:active {
+    color: red;
+    text-decoration: underline; 
+  }
+}
+
+/* HOME */
+.home
+{
+  min-height: 70vh;
+  min-width: 70vw;
+  display: flex;
+}
+.welcome img
+{
+  min-height: 60vh;
+  max-width: 70vw;
+}
+
+
+/* CARDS */
+.cards
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card
+{
+  max-height: 40vh;
+  margin: 2%;
+}
+.btn
+{
+  margin: 0 2%;
+}
+.content
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.button
+{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+form
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+fieldset
+{
+  display: flex;
+  flex-direction: column;
+}
+input
+{
+  margin: 2% 0 !important;
+}
+
+table, th, tr, td
+{
+  border: 1px solid black;
+}
